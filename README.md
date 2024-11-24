@@ -70,7 +70,7 @@ These hints are displayed directly in the application UI to improve user engagem
 
 ## Installation and Setup
 ### Clone the Repository:
-```git clone https://github.com/yourusername/education-support-agent.git ```
+```git clone https://github.com/yourusername/education-support-agent.git ```  
 ```cd education-support-agent```
 
 ### Install Dependencies:
@@ -82,13 +82,29 @@ Start the Streamlit server:
 ```streamlit run app.py```
 
 ### Access the Application:
-Open your browser and navigate to the URL displayed in the terminal, typically ```http://localhost:8501```
+Open your browser and navigate to the URL displayed in the terminal: ```http://localhost:8501```
+
+
+## Tech Stack
+- Backend:  
+Python: Core programming language used for implementing the logic.  
+difflib.SequenceMatcher: Used for similarity matching between user questions and predefined questions.
+- Frontend:  
+Streamlit: Provides an interactive, web-based UI for user interaction with the agent.
+- Infrastructure:  
+Local Deployment: Runs on a local development environment using Streamlit’s built-in server.
 
 
 ## Performance
-Time Complexity: O(n * (m+p)), where n is the number of predefined questions; m is the length of the user's question and p is the average length of predefined questions.
-Space Complexity: O(n * p).
+- Time Complexity: O(n * (m+p)), where n is the number of predefined questions; m is the length of the user's question and p is the average length of predefined questions.  
+- Space Complexity: O(n * p).
 
+
+## Future Improvements
+- Dynamic Dataset: Load questions and answers from a database or external file for easier updates.
+- Semantic Matching: Replace similarity matching with NLP embeddings for better understanding.
+- Multi-language Support: Add support for international users by translating predefined responses.
+- Interactive Hints: Allow users to click on hints to auto-fill the input box.
 
 ##
 Author: Prachi Shah (https://www.linkedin.com/in/prachisshah)
