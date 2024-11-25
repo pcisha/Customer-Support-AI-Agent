@@ -31,7 +31,6 @@ These hints are displayed directly in the application UI to improve user engagem
 
 
 ## Predefined Questions and Answers
-### Sample Questions
 #### Account Management:
 - "How do I sign up for a course?"
 - "What if I forget my password?"
@@ -54,7 +53,7 @@ These hints are displayed directly in the application UI to improve user engagem
 - "How do I contact support?"
 
 
-### Example Interactions
+### Interactions
 #### Exact Match:
 - User Input: "How do I sign up for a course?"
 - Response: "To sign up for a course, log in to your account, browse our catalog, and click 'Enroll' on the course page. You can proceed to payment to confirm your enrollment."
@@ -69,17 +68,13 @@ These hints are displayed directly in the application UI to improve user engagem
 
 
 ## Installation and Setup
-### Clone the Repository:
-```git clone https://github.com/yourusername/education-support-agent.git ```  
-```cd education-support-agent```
-
 ### Install Dependencies:
 Ensure Python is installed, then install the required package:
 ```pip install streamlit```
 
 ### Run the Application:
 Start the Streamlit server:
-```streamlit run app.py```
+```streamlit run CustomerSupportAgent.py```
 
 ### Access the Application:
 Open your browser and navigate to the URL displayed in the terminal: ```http://localhost:8501```
@@ -107,6 +102,6 @@ Local Deployment: Runs on a local development environment using Streamlit’s bu
 - Interactive Hints: Allow users to click on hints to auto-fill the input box.
 
 ##
-Author: Prachi Shah (https://www.linkedin.com/in/prachisshah)
+Author: Prachi Shah @ https://pcisha.my.canva.site/
 
 P.S. The default copyright laws apply.
