@@ -102,6 +102,6 @@ Local Deployment: Runs on a local development environment using Streamlit’s bu
 - Interactive Hints: Allow users to click on hints to auto-fill the input box.
 
 ##
-Author: Prachi Shah @ https://pcisha.my.canva.site/
+Author: Prachi Shah @ https://www.linkedin.com/in/prachisms/
 
 P.S. The default copyright laws apply.
